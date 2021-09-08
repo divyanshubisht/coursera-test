@@ -1,1 +1,115 @@
+*{
+box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+h1{
+  margin:35px;
+  font-weight: bold;
+  font-size: 125%
+  font-family: Helvetica;
+  text-align: center;
+}
 
+section{
+  position: relative;
+  font-family: helvetica;
+  font-size: 75%
+  padding: 55px;
+  width:100%;
+}
+section#Chicken{
+   margin:auto;
+}
+section#Beef{
+  margin:auto;
+}
+section#Sushi{
+  margin:auto;
+}
+div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+  }
+  .s1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: pink;
+
+  }
+  .s2{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: tomato;
+   }
+  .s3{
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: yellow;
+  }
+  .content {
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+    clear: right;
+  }
+
+
+.row{
+	width:100%;
+}
+
+/*  For large screen*/
+@media (min-width: 992px){
+  .col-lg-4 {
+    float: left;  
+    width:33.33%;
+    }
+ }
+
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12{
+    float:left;
+    width: 100%
+  }
+}
+
+/*  for mobile */
+@media (max-width: 767px){
+  .col-sm-12{
+    width:100%;
+    float: left;
+  }
+}
