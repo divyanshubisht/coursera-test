@@ -1,10 +1,5 @@
+# Module-2 Coding Assignment
 
-<html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h3>For output click here</h3>
-    <a href="https://divyanshubisht.github.io/coursera-test/mod-2-solution/index.html">OUTPUT</a>
-  </body>
-</html>
+Coursera course: HTML, CSS, and Javascript for Web Developers
+
+# To see the output [CLICK HERE](https://divyanshubisht.github.io/coursera-test/mod-2-solution/index.html)
