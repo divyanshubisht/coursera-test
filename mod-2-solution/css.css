@@ -12,27 +12,22 @@ h1{
   text-align: center;
 }
 
-section{
-  position: relative;
+/*section{
   font-family: helvetica;
   font-size: 75%
   padding: 55px;
   width:100%;
 }
-section#Chicken{
-   margin:auto;
-}
-section#Beef{
-  margin:auto;
-}
-section#Sushi{
-  margin:auto;
-}
+*/
 div {
-    position: relative;
     background-color: gray;
-    border: 1px solid black;
+    font-family: helvetica;
+    font-size:75%
+    padding:55px;
     width: 100%;
+    border:1px solid black;
+    margin:auto;
+    border-collapse: collapse;
   }
   .s1 {
     float: right;
@@ -69,12 +64,12 @@ div {
     background-color: yellow;
   }
   .content {
-    padding: 10px;
+    clear:right;
+    padding: 25px 10px 10px 10px;
     border: none;
     background-color: gray;
     font-family: Helvetica;
     color: black;
-    margin: 0px;
     height: 200px;
     overflow: auto;
     clear: right;
@@ -89,7 +84,7 @@ div {
 @media (min-width: 992px){
   .col-lg-4 {
     float: left;  
-    width:33.33%;
+    width: 33.33%;
     }
  }
 
