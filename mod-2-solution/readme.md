@@ -1,7 +1,6 @@
 
 <html>
   <head>
-    <title>OUTPUT</title>
     <meta charset="utf-8">
     <style>
       h3{
@@ -11,6 +10,7 @@
       a{
       font-size:40px;
       }
+    </style>
   </head>
   <body>
     <h3>For output click here</h3>
